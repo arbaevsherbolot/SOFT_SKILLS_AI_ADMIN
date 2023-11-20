@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  min-width: 350px;
+
+  &.modal_open {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  background: rgb(16 21 29 / 1);
+
+  color: #ffffff;
+
+  &.modal_open {
+    overflow: hidden;
+  }
+}
