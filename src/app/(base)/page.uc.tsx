@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Account from "@/components/ui/Account";
 import CreateTopic from "@/components/ui/CreateTopic";
-import * as API from "../../../api";
+import * as API from "../../../(api)";
 import { errorNotification } from "@/lib/utils/notification";
 import { WedevxSvg } from "@/assets/svg";
 import styles from "@/styles/Home.module.scss";

@@ -7,7 +7,7 @@ import {
   errorNotification,
   successNotification,
 } from "@/lib/utils/notification";
-import * as API from "../../../api";
+import * as API from "../../../(api)";
 import Button from "@/components/ui/Button";
 import styles from "@/styles/CreateTopic.module.scss";
 
